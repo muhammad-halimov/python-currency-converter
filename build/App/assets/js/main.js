@@ -4,7 +4,7 @@ let from = document.querySelector('.from select');
 let to = document.querySelector('.to select');
 let amount = document.querySelector('.amount input');
 
-button.addEventListener('click', async () =>
+button.addEventListener('click', async() =>
 {
    if (!amount.value || amount.value == 0)
    {
