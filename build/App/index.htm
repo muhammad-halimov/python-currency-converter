@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script defer rel="script" type="text/javascript" src="assets/js/main.js"></script>
+    <script defer rel="script" type="text/javascript" src="eel.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet"/>
+    <link rel="shortcut icon" type="image" href="assets/img/favicon.png"/>
+    <title>Currency Converter</title>
+</head>
+<body>
+    <header>
+        <img src="assets/img/favicon.png" alt="" width="64" height="64"/>
+        <h1>Currency Converter</h1>
+    </header>
+    <main>
+        <div class="wrapper">
+            <h1>Convert currency: </h1>
+            <div class="amount">
+                <h1>Amount</h1>
+                <input type="number" id="amount"/>
+            </div>
+            <div class="from">
+                <h1>From</h1>
+                <select>
+                    <option>Usd</option>
+                    <option>Eur</option>
+                    <option>Gbp</option>
+                    <option>Chf</option>
+                    <option>Nok</option>
+                    <option>Hkd</option>
+                    <option>Czk</option>
+                    <option>Pln</option>
+                    <option>Ron</option>
+                    <option>Ils</option>
+                    <option>Try</option>
+                    <option>Jpy</option>
+                </select>
+            </div>
+            <div class="to">
+                <h1>To --></h1>
+                <select>
+                    <option>Usd</option>
+                    <option>Eur</option>
+                    <option>Gbp</option>
+                    <option>Chf</option>
+                    <option>Nok</option>
+                    <option>Hkd</option>
+                    <option>Czk</option>
+                    <option>Pln</option>
+                    <option>Ron</option>
+                    <option>Ils</option>
+                    <option>Try</option>
+                    <option>Jpy</option>
+                </select>
+            </div>
+            <button type="button">Convert</button>
+            <h1 class="result"></h1>
+            <h1 class="time"></h1>
+        </div>
+    </main>
+</body>
+</html>
