@@ -6,7 +6,7 @@ The project uses EEL for UI & frankfurter API for checking the currency.
 
 If you don't installed this libraryes before, you can just unarchive the venv folder, it contains virtual environment for python and also libaryes.
 
-It's also has a executable (.exe) version, if you want you can use it, but it's works slowly(because of auto-py-to-exe library), but hey it's usable !
+It's also has a executable (.exe) version, if you want you can use it, but it's starting slowly(because of auto-py-to-exe library), but hey it's usable !
 
 Some links and comands: https://www.python.org/downloads/ - download python
 
